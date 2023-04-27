@@ -1,0 +1,124 @@
+CIS 245 final project
+
+
+About Cat college
+
+
+            
+
+
+
+Due: Dec 11th, 2020
+
+You have been awarded a position at Cat College, which provides educational services for the Fraser Valley - online classes.  The company currently has about 5 instructors, whom work in around 3 classes all days of the week.  At this time, all “class offerings” and registrations are collected by phone, and written on a clip board, and the owner has found that they have been forgetting to invoice the students, forgetting to assign instructors to show up for class offerings, forgetting to follow up on student troubles, and not paying instructors correctly, etc.
+
+Your first duty at your new position at Cat College is to provide an online solution for the company to:
+
+Track clients/student information for registration and billing.
+Track class schedules, student record information, instructor pay, and student fees - anything else that can be managed for effectively for an online college.
+Accounting tracking, inventory levels, price, and paying vendors - for textbooks, offices, cell phones, etc.
+Scheduling and dispatch for the on-call I.T. technicians, (pay them per bi-weekly paycheck).
+Invoicing/payroll collection, and printing of paychecks, accounts payable/receivable, etc.
+Student ability to pay invoices online (credit card number) - through a PHP insert on your webpage-portal :)
+The scheduling/student/instructor page/database should always allow a
+
+1* creation of class number/work order,
+
+2* estimate for instructor and student hours and textbook costs,
+
+3* entry for actual class offerings based on teaching about your project topic,
+
+4* assigning resources,
+
+and *5 handling the invoice and processing student payment online.
+
+The webpage should be hosted through your phpmyadmin UFV account, CIS Webspaces login, and PHP/MySQL should connect to tables you created in your own database (don’t use the test database).
+
+The webpage should allow the user to search by date, class, invoice, status, employee, invoice, method of payment, etc.
+
+The webpage should allow the ability to “check-in” for the student and instructor, and check out, therefore track the amount of time used for the job (to be billed/invoiced) – and for the employee to get paid!
+
+HERE'S THE TWIST, yes, the classes offered are classes dedicated to learning about your topic that I have approved during your JavaScript jQuery Challege (proposal site).
+
+ 
+
+This final project/exam is worth a total of 160 marks, due Dec 11th.
+
+The project will be marked on:
+
+-use of code used through our class assignments/challenges/lectures – 40 marks
+
+-ability to provide a solution for the customer – 40 marks
+
+-professionalism & look of the webpage itself – 20 marks
+
+-how well the PHP/MySQL works – 20 marks
+
+-creativity for how you’ve made a solution for the company – 20 marks
+
+-Spelling, grammar, APA with proper in-text citations and a references page – 20 marks
+
+
+
+*hint, you may need to consider tables in your phpmyadmin account such as (but not limited to):
+
+     CC_Employees 
+
+employee_code 
+
+employee_name 
+
+employee_pay
+
+
+
+     CC_Students
+
+student_code 
+
+student _name 
+
+student _address 
+
+student_city 
+
+student _prov 
+
+student _zip
+
+
+
+
+     CC_Inventory 
+
+vendor_code 
+
+item_name
+
+item_cost
+
+
+
+     CC_Classes
+
+class_code 
+
+class_name
+
+checkin_time 
+
+checkout_time 
+
+billing_amount 
+
+
+
+     CC_Sales_Tracker
+
+class_code 
+
+student_code
+
+*what ever else we'd track for students taking classes!
+
+as always, hand-in through this assignment area, all I want is your https://cisweb.ufv.ca/~300000000 link submitted when it is ready!
